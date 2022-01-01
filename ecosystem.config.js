@@ -24,7 +24,7 @@ module.exports = {
       ref: 'origin/master',
       repo: 'https://github.com/tungnt620/second_brain_server.git',
       path: '/data/second_brain_server',
-      'post-deploy': 'yarn install && pm2 reload ecosystem.config.js --env production'
+      'post-deploy': 'yarn install && /root/.asdf/installs/nodejs/14.17.6/.npm/bin/pm2 reload ecosystem.config.js --env production'
     }
   }
 }
